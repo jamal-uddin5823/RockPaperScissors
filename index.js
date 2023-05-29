@@ -42,18 +42,18 @@ const temp = document.getElementById("start-btn").onclick = function() {
         document.getElementById("result").textContent = "It's a tie!😁";
 
     else if(suite==="Rock" && comp_suite==="Paper")
-        document.getElementById("result").textContent = "You Lost!😢";
+        document.getElementById("result").textContent = "You Lose!😢";
     else if(suite==="Paper" && comp_suite==="Scissors")
-        document.getElementById("result").textContent = "You Lost!😢";
+        document.getElementById("result").textContent = "You Lose!😢";
     else if(suite==="Scissors" && comp_suite==="Rock")
-        document.getElementById("result").textContent = "You Lost!😢";
+        document.getElementById("result").textContent = "You Lose!😢";
 
     else if(comp_suite==="Rock" && suite==="Paper")
-        document.getElementById("result").textContent = "You Won!🥳";
+        document.getElementById("result").textContent = "You Win!🥳";
     else if(comp_suite==="Paper" && suite==="Scissors")
-        document.getElementById("result").textContent = "You Won!🥳";
+        document.getElementById("result").textContent = "You Win!🥳";
     else if(comp_suite==="Scissors" && suite==="Rock")
-        document.getElementById("result").textContent = "You Won!🥳";
+        document.getElementById("result").textContent = "You Win!🥳";
     
     document.getElementById("replay").textContent = "Choose you suite again to replay!";
 }
