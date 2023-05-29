@@ -12,23 +12,13 @@
     padding: 10px 10px;
     /* border: 2px groove rgb(254, 255, 255); */
 }
-.heading:hover{
-    text-align: center;
-    color: rgb(254, 255, 255);
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bolder;
-    font-style: italic;
-    font-size: 57px;
-    margin: 20px 10px;
-    padding: 10px 10px;
-    border: 2px groove rgb(254, 255, 255);
-}
+
 .text{
     text-align: center;
     color: rgb(254, 255, 255);
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bolder;
-    font-size: 45px;
+    font-size: 25px;
     margin: 20px 10px;
     padding: 10px 10px;
 }
@@ -45,13 +35,14 @@
     width: 200px;
     height: 50px;
     border:none;
-    font-size:40px;
+    font-size:25px;
 }
 
 .play-btn-div{
     display: flex;
     align-items: center;
     justify-content: center;
+    /* border: 2px solid white; */
 }
 
 .start-btn{
@@ -61,12 +52,32 @@
     width: 250px;
     height: 70px;
     border-radius: 50px;
+    padding: 5px 10px;
+    margin: 25px;
 }
 .start-btn:hover{
-    color:rgb(254, 255, 255);
+    color:rgb(19, 83, 212);
     font-size:42px;
     background-color: rgb(254, 255, 255);
     width: 250px;
     height: 70px;
     border-radius: 50px;
+}
+
+
+
+#footer-text{
+    position: fixed;
+    bottom: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(249, 250, 251);
+    font-weight: lighter;
+    font-size: 10px;
+}
+
+#result{
+    font-size: 30px;
+}
+#versus{
+    font-size: 45px;
 }
