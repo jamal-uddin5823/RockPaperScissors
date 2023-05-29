@@ -1,0 +1,72 @@
+*{
+    box-sizing: border-box;
+    background-color:rgb(1, 15, 42);
+}
+.heading{
+    text-align: center;
+    color: rgb(254, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 54px;
+    margin: 20px 10px;
+    padding: 10px 10px;
+    /* border: 2px groove rgb(254, 255, 255); */
+}
+.heading:hover{
+    text-align: center;
+    color: rgb(254, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-style: italic;
+    font-size: 57px;
+    margin: 20px 10px;
+    padding: 10px 10px;
+    border: 2px groove rgb(254, 255, 255);
+}
+.text{
+    text-align: center;
+    color: rgb(254, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 45px;
+    margin: 20px 10px;
+    padding: 10px 10px;
+}
+
+.play-div{
+    margin:20px 20px;
+    padding:20px 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#suite-names{
+    color:rgb(254, 255, 255);
+    width: 200px;
+    height: 50px;
+    border:none;
+    font-size:40px;
+}
+
+.play-btn-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.start-btn{
+    color:rgb(254, 255, 255);
+    font-size:40px;
+    background-color:rgb(19, 83, 212) ;
+    width: 250px;
+    height: 70px;
+    border-radius: 50px;
+}
+.start-btn:hover{
+    color:rgb(254, 255, 255);
+    font-size:42px;
+    background-color: rgb(254, 255, 255);
+    width: 250px;
+    height: 70px;
+    border-radius: 50px;
+}

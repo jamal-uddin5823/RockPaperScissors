@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>✌️Rock Paper Scissors!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="heading">✊Rock Paper Scissors!✌️</h1>
+    <div class="play-div">
+        <img src="Assets/Mystery.png" alt="Player Suit" id="image-player" class="image">
+        <h2 class="text">Vs</h2>  
+        <img src="Assets/Mystery.png" alt="Player Suit" id="image-comp" class="image">
+    </div>
+    
+        <label for="" class="choose-suite text">Choose your suite</label>
+        <select name="suite-names" id="suite-names">
+        <option value="None" class="text" selected disabled>None</option>
+            <option value="Rock" class="text">Rock</option>
+            <option value="Paper" class="text">Paper</option>
+            <option value="Scissors" class="text">Scissors</option>
+        </select>
+    <h3 class="text" id ="result"></h3>
+    <h3 class="text" id ="replay"></h3>
+    <div class="play-btn-div">
+        <button class="start-btn" id ="start-btn">Play!</button>
+    </div>
+
+
+    <script src="index.js"></script>
+</body>
+</html>
